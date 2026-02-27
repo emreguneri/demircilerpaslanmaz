@@ -1,0 +1,1212 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Demirciler Paslanmaz | Balıkesir Paslanmaz Kaynak & Argon Kaynağı</title>
+  <meta name="description" content="Balıkesir’de 15 yıllık tecrübeyle argon kaynağı (TIG), paslanmaz boru kaynağı ve gazlı boru kaynağı. Özel imalat ve tamirat. Teklif alın." />
+  <link rel="canonical" href="https://demircilerpaslanmaz.com/" />
+  <meta name="robots" content="index,follow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Demirciler Paslanmaz" />
+  <meta property="og:title" content="Demirciler Paslanmaz | Balıkesir Paslanmaz Kaynak & Argon Kaynağı" />
+  <meta property="og:description" content="Balıkesir’de 15 yıllık tecrübeyle argon kaynağı (TIG), paslanmaz boru kaynağı ve gazlı boru kaynağı. Özel imalat ve tamirat. Teklif alın." />
+  <meta property="og:url" content="https://demircilerpaslanmaz.com/" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Demirciler Paslanmaz | Balıkesir Paslanmaz Kaynak & Argon Kaynağı" />
+  <meta name="twitter:description" content="Balıkesir’de 15 yıllık tecrübeyle argon kaynağı (TIG), paslanmaz boru kaynağı ve gazlı boru kaynağı. Özel imalat ve tamirat. Teklif alın." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg: #e9e2d6;
+      --bg-2: #e1d8ca;
+      --ink: #121826;
+      --muted: #5b667a;
+      --line: rgba(18, 24, 38, 0.14);
+      --card: rgba(238, 231, 221, 0.78);
+      --card-2: rgba(246, 241, 233, 0.92);
+      --glass: rgba(233, 226, 214, 0.72);
+      --shadow: 0 20px 50px rgba(18, 24, 38, 0.12);
+      --shadow-2: 0 10px 24px rgba(18, 24, 38, 0.10);
+      --radius: 18px;
+      --radius-sm: 14px;
+      --accent: #ff6a1a;
+      --accent-2: #00b3c6;
+      --ok: #10b981;
+      --max: 1160px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Plus Jakarta Sans", system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+      background:
+        radial-gradient(1200px 700px at 15% 10%, rgba(0, 179, 198, 0.10), transparent 55%),
+        radial-gradient(900px 600px at 90% 18%, rgba(255, 106, 26, 0.12), transparent 52%),
+        linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
+      min-height: 100vh;
+    }
+
+    .container {
+      width: min(var(--max), 92vw);
+      margin: 0 auto;
+    }
+
+    .noise {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.08;
+      mix-blend-mode: multiply;
+      background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E");
+      z-index: -1;
+    }
+
+    a { color: inherit; }
+
+    .topbar {
+      border-bottom: 1px solid var(--line);
+      background: var(--glass);
+      backdrop-filter: blur(10px);
+    }
+
+    .topbar-inner {
+      min-height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .topbar-right {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .toplink {
+      text-decoration: none;
+      font-weight: 700;
+      color: var(--ink);
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(246, 241, 233, 0.82);
+      box-shadow: var(--shadow-2);
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      background: var(--glass);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav {
+      min-height: 74px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      min-width: 0;
+      padding: 10px 12px;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: rgba(246, 241, 233, 0.78);
+      box-shadow: var(--shadow-2);
+    }
+
+    .mark {
+      width: 56px;
+      height: 56px;
+      border-radius: 18px;
+      display: grid;
+      place-items: center;
+      font-weight: 900;
+      letter-spacing: 0.2px;
+      color: #1b120a;
+      background: linear-gradient(135deg, rgba(255,106,26,1), rgba(255,195,150,1));
+      box-shadow: 0 18px 40px rgba(255, 106, 26, 0.24);
+      flex: 0 0 auto;
+    }
+
+    .brand-text {
+      display: grid;
+      line-height: 1.1;
+      min-width: 0;
+    }
+
+    .brand-title {
+      font-family: "Sora", sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.4px;
+      font-size: clamp(18px, 2.2vw, 24px);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .brand-sub {
+      font-size: 13px;
+      color: var(--muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .brand:hover,
+    .brand:focus-visible {
+      outline: none;
+      background: rgba(246, 241, 233, 0.92);
+      border-color: rgba(18, 24, 38, 0.18);
+      transform: translateY(-1px);
+    }
+
+    nav {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--muted);
+      padding: 10px 12px;
+      border-radius: 999px;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    nav a:hover,
+    nav a:focus-visible {
+      background: rgba(255, 255, 255, 0.8);
+      color: var(--ink);
+      outline: none;
+    }
+
+    .cta {
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 14px;
+      padding: 11px 14px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 106, 26, 0.35);
+      color: #1b120a;
+      background: linear-gradient(135deg, rgba(255,106,26,1), rgba(255,195,150,1));
+      box-shadow: 0 12px 26px rgba(255, 106, 26, 0.18);
+      white-space: nowrap;
+    }
+
+    .menu {
+      display: none;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(246, 241, 233, 0.86);
+      padding: 10px 12px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .hero {
+      padding: 28px 0 10px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--card);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panel-inner {
+      padding: clamp(18px, 3vw, 28px);
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.72);
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--muted);
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent-2), var(--accent));
+      box-shadow: 0 0 0 4px rgba(0, 179, 198, 0.12);
+    }
+
+    h1 {
+      margin: 14px 0 0;
+      font-family: "Sora", sans-serif;
+      font-weight: 700;
+      letter-spacing: -0.6px;
+      font-size: clamp(34px, 4.6vw, 54px);
+      line-height: 1.08;
+    }
+
+    .lead {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.7;
+      max-width: 60ch;
+    }
+
+    .lead-2 {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 1.75;
+      max-width: 70ch;
+      color: rgba(91, 102, 122, 0.92);
+    }
+
+    .points {
+      margin-top: 16px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .point {
+      display: grid;
+      grid-template-columns: 22px 1fr;
+      gap: 10px;
+      align-items: start;
+      padding: 12px 12px;
+      border-radius: 14px;
+      border: 1px solid rgba(18, 24, 38, 0.12);
+      background: rgba(246, 241, 233, 0.76);
+    }
+
+    .icon {
+      width: 22px;
+      height: 22px;
+      border-radius: 8px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, rgba(0, 179, 198, 0.20), rgba(255, 106, 26, 0.16));
+      border: 1px solid rgba(18, 24, 38, 0.10);
+      color: #1b3b47;
+      font-weight: 900;
+      font-size: 12px;
+    }
+
+    .point strong {
+      display: block;
+      font-size: 14px;
+    }
+
+    .point span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 2px;
+    }
+
+    .hero-actions {
+      margin-top: 16px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .btn {
+      text-decoration: none;
+      font-weight: 800;
+      padding: 12px 14px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: rgba(246, 241, 233, 0.86);
+      color: var(--ink);
+      box-shadow: var(--shadow-2);
+      transition: transform 0.18s ease;
+      white-space: nowrap;
+    }
+
+    .btn:hover,
+    .btn:focus-visible {
+      transform: translateY(-2px);
+      outline: none;
+    }
+
+    .btn-primary {
+      border-color: rgba(255, 106, 26, 0.28);
+      background: linear-gradient(135deg, rgba(255,106,26,1), rgba(255,195,150,1));
+      color: #1b120a;
+    }
+
+    .micro {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .media {
+      position: relative;
+      min-height: 420px;
+      background:
+        radial-gradient(800px 420px at 20% 30%, rgba(0, 179, 198, 0.18), transparent 55%),
+        radial-gradient(800px 520px at 80% 70%, rgba(255, 106, 26, 0.18), transparent 55%),
+        linear-gradient(180deg, rgba(18, 24, 38, 0.06), rgba(18, 24, 38, 0.02));
+    }
+
+    .photo {
+      position: absolute;
+      inset: 0;
+      background: url("https://images.unsplash.com/photo-1581092335397-9583eb92d232?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
+      filter: saturate(1.05) contrast(1.02);
+      transform: scale(1.03);
+    }
+
+    .media::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(120deg, rgba(233, 226, 214, 0.08) 0%, rgba(233, 226, 214, 0.68) 62%, rgba(233, 226, 214, 0.80) 100%);
+    }
+
+    .media-inner {
+      position: relative;
+      z-index: 1;
+      padding: clamp(18px, 3vw, 28px);
+      height: 100%;
+      display: grid;
+      align-content: end;
+      gap: 10px;
+    }
+
+    .bento {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .tile {
+      border: 1px solid var(--line);
+      background: rgba(246, 241, 233, 0.88);
+      border-radius: 16px;
+      padding: 12px;
+      box-shadow: var(--shadow-2);
+    }
+
+    .tile strong {
+      font-family: "Sora", sans-serif;
+      letter-spacing: -0.4px;
+      font-size: 18px;
+    }
+
+    .tile span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 4px;
+    }
+
+    .section {
+      padding: 20px 0;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 18px 0 12px;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-family: "Sora", sans-serif;
+      letter-spacing: -0.5px;
+      font-size: 28px;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--muted);
+      max-width: 60ch;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .card {
+      grid-column: span 12;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--card-2);
+      box-shadow: var(--shadow-2);
+      padding: 14px;
+    }
+
+    .card h3 {
+      margin: 0;
+      font-size: 16px;
+      letter-spacing: -0.2px;
+    }
+
+    .card p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .card p + p {
+      margin-top: 10px;
+    }
+
+    .k {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+    }
+
+    .k i {
+      width: 26px;
+      height: 26px;
+      border-radius: 10px;
+      display: grid;
+      place-items: center;
+      background: rgba(255, 106, 26, 0.10);
+      border: 1px solid rgba(255, 106, 26, 0.18);
+      font-style: normal;
+      color: #7a2e00;
+      font-weight: 900;
+    }
+
+    .services .card { grid-column: span 12; }
+
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .project {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--card-2);
+      box-shadow: var(--shadow-2);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .project-media {
+      min-height: 170px;
+      background:
+        radial-gradient(420px 220px at 20% 30%, rgba(0, 179, 198, 0.18), transparent 55%),
+        radial-gradient(420px 260px at 80% 70%, rgba(255, 106, 26, 0.18), transparent 55%),
+        linear-gradient(180deg, rgba(18, 24, 38, 0.06), rgba(18, 24, 38, 0.02));
+      position: relative;
+    }
+
+    .project-media::after {
+      content: "Fotoğraf eklenebilir";
+      position: absolute;
+      left: 12px;
+      bottom: 12px;
+      font-size: 12px;
+      color: rgba(18, 24, 38, 0.55);
+      font-weight: 800;
+      background: rgba(255, 255, 255, 0.75);
+      border: 1px solid var(--line);
+      padding: 6px 10px;
+      border-radius: 999px;
+    }
+
+    .project-body {
+      padding: 14px;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .chip {
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.82);
+      border-radius: 999px;
+      padding: 8px 10px;
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .contact {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .prose p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.85;
+    }
+
+    .prose p + p {
+      margin-top: 12px;
+    }
+
+    .about-aside {
+      display: grid;
+      gap: 10px;
+    }
+
+    .about-aside h3 {
+      margin: 0;
+      font-family: "Sora", sans-serif;
+      letter-spacing: -0.3px;
+      font-size: 18px;
+    }
+
+    .about-aside ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.75;
+    }
+
+    .info {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--card-2);
+      box-shadow: var(--shadow-2);
+      padding: 14px;
+    }
+
+    .row {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.82);
+      padding: 12px;
+      margin-top: 10px;
+    }
+
+    .row small {
+      display: block;
+      color: var(--muted);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      font-size: 11px;
+      margin-bottom: 4px;
+    }
+
+    .row a,
+    .row span {
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    form {
+      display: grid;
+      gap: 10px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--card-2);
+      box-shadow: var(--shadow-2);
+      padding: 14px;
+    }
+
+    .two {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    input,
+    select,
+    textarea,
+    button { font: inherit; }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.86);
+      outline: none;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-color: rgba(0, 179, 198, 0.55);
+      box-shadow: 0 0 0 4px rgba(0, 179, 198, 0.12);
+    }
+
+    textarea { min-height: 110px; resize: vertical; }
+
+    button {
+      cursor: pointer;
+      border-radius: 14px;
+      border: 1px solid rgba(16, 185, 129, 0.45);
+      background: linear-gradient(135deg, rgba(16,185,129,1), rgba(151,242,208,1));
+      font-weight: 900;
+      padding: 12px;
+      color: #0b2a1d;
+    }
+
+    .fine {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .floating {
+      position: fixed;
+      right: 14px;
+      bottom: 14px;
+      z-index: 50;
+      text-decoration: none;
+      font-weight: 900;
+      padding: 12px 14px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, rgba(16,185,129,1), rgba(151,242,208,1));
+      color: #0b2a1d;
+      box-shadow: 0 18px 40px rgba(16, 185, 129, 0.22);
+      border: 1px solid rgba(16, 185, 129, 0.35);
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 26px 0 40px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .reveal.in {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .title {
+      margin: 0;
+      font-family: "Sora", sans-serif;
+      letter-spacing: -0.3px;
+    }
+
+    @media (min-width: 820px) {
+      .services .card { grid-column: span 6; }
+      .projects { grid-template-columns: 1fr 1fr; }
+      .project { grid-template-columns: 0.9fr 1.1fr; }
+      .project-media { min-height: auto; }
+      .contact { grid-template-columns: 1fr 1fr; }
+      .points { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .point { grid-template-columns: 1fr; gap: 8px; }
+      .icon { width: 28px; height: 28px; border-radius: 10px; font-size: 13px; }
+      .point strong { font-size: 15px; }
+      .point span { font-size: 12px; }
+      .about-grid { grid-template-columns: 1.2fr 0.8fr; align-items: start; }
+    }
+
+    @media (max-width: 980px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .media { min-height: 360px; }
+    }
+
+    @media (max-width: 860px) {
+      nav, .cta { display: none; }
+      .menu { display: inline-flex; }
+      nav.open {
+        display: flex;
+        position: absolute;
+        right: 4vw;
+        left: 4vw;
+        top: calc(100% + 8px);
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 10px;
+        box-shadow: var(--shadow);
+        flex-direction: column;
+        align-items: stretch;
+        gap: 6px;
+      }
+      nav.open a { color: var(--ink); }
+      nav.open a:hover { background: rgba(18, 24, 38, 0.06); }
+      .brand { padding: 8px 10px; border-radius: 16px; }
+      .mark { width: 48px; height: 48px; border-radius: 16px; }
+    }
+
+    @media (max-width: 720px) {
+      .two { grid-template-columns: 1fr; }
+      .floating { left: 12px; right: 12px; text-align: center; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .reveal { transition: none; }
+      .btn { transition: none; }
+      .hero * { animation: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div>Balıkesir merkez + ilçeler | Seyyar TIG/Argon kaynak</div>
+      <div class="topbar-right">
+        <span>7/24 Hizmet</span>
+        <a class="toplink" href="tel:+905392401111">Ara</a>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#anasayfa" aria-label="Demirciler Paslanmaz Ana Sayfa">
+        <span class="mark">DP</span>
+        <span class="brand-text">
+          <span class="brand-title">Demirciler Paslanmaz</span>
+          <span class="brand-sub">Argon (TIG) Kaynak ve Özel İmalat</span>
+        </span>
+      </a>
+
+      <button class="menu" id="menuBtn" type="button" aria-label="Menü">Menü</button>
+
+      <nav id="navLinks" aria-label="Bölümler">
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#hizmetler">Hizmetler</a>
+        <a href="#ornekler">Örnek İşler</a>
+        <a href="#surec">Süreç</a>
+        <a href="#sss">SSS</a>
+        <a href="#bolgeler">Bölgeler</a>
+        <a href="#iletisim">İletişim</a>
+      </nav>
+
+      <a class="cta" href="#teklif">Teklif Al</a>
+    </div>
+  </header>
+
+  <main class="container" id="anasayfa">
+    <section class="hero">
+      <div class="hero-grid">
+        <article class="panel reveal">
+          <div class="panel-inner">
+            <span class="pill"><span class="dot"></span> Balıkesir’de premium TIG (argon) kaynak</span>
+            <h1>Balıkesir’de Paslanmaz Kaynak ve Argon Kaynağı</h1>
+            <p class="lead">Demirciler Paslanmaz, 15 yıllık tecrübesiyle TIG (argon) kaynak ve paslanmaz boru kaynağı işlerinde premium işçilik sunar.</p>
+            <p class="lead lead-2">
+              Balıkesir merkez ve tüm ilçelerinde hizmet veriyoruz; proje bazlı olarak Bursa, İzmir, Manisa ve Çanakkale gibi çevre illere de destek sağlıyoruz.
+              Uzmanlık alanlarımız: argon kaynağı (TIG), paslanmaz boru kaynağı ve gazlı boru kaynağı.
+            </p>
+
+            <div class="points">
+              <div class="point">
+                <div class="icon">1</div>
+                <div>
+                  <strong>Premium işçilik</strong>
+                  <span>Paslanmazda temiz dikiş ve dayanım odaklı uygulama</span>
+                </div>
+              </div>
+              <div class="point">
+                <div class="icon">2</div>
+                <div>
+                  <strong>Geniş hizmet alanı</strong>
+                  <span>Balıkesir merkez + tüm ilçeler</span>
+                </div>
+              </div>
+              <div class="point">
+                <div class="icon">3</div>
+                <div>
+                  <strong>Proje bazlı destek</strong>
+                  <span>Bursa, İzmir, Manisa, Çanakkale</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="tel:+905392401111">Hemen Ara</a>
+              <a class="btn" href="https://wa.me/905392401111?text=Merhaba%2C%20paslanmaz%20argon%20(TIG)%20kaynak%20i%C3%A7in%20teklif%20almak%20istiyorum." target="_blank" rel="noopener">WhatsApp</a>
+              <span class="micro">En hızlı: Fotoğraf + ölçü gönderin.</span>
+            </div>
+          </div>
+        </article>
+
+        <aside class="panel media reveal">
+          <div class="photo" aria-hidden="true"></div>
+          <div class="media-inner">
+            <div class="bento">
+              <div class="tile">
+                <strong>15+ yıl</strong>
+                <span>Tecrübe</span>
+              </div>
+              <div class="tile">
+                <strong>Yerinde keşif</strong>
+                <span>Gerekirse adrese gelinir</span>
+              </div>
+              <div class="tile">
+                <strong>Net teklif</strong>
+                <span>Malzeme + işçilik açık</span>
+              </div>
+              <div class="tile">
+                <strong>Geniş bölge</strong>
+                <span>Merkez + ilçeler</span>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="hakkimizda">
+      <div class="section-head">
+        <h2>Hakkımızda</h2>
+        <p>15 yıllık saha tecrübesi, kurumsal iş disiplini ve premium işçilik.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="card prose">
+          <p>Demirciler Paslanmaz, paslanmaz kaynak ve boru kaynak uygulamalarında 15 yıllık saha tecrübesini kurumsal iş disipliniyle birleştiren bir metal işleme markasıdır. Balıkesir merkez ve tüm ilçelerinde; argon kaynağı (TIG), paslanmaz boru kaynağı ve gazlı boru kaynağı hizmetlerini yüksek kalite standardıyla sunar.</p>
+
+          <p>İşimizin merkezinde; doğru ısı kontrolü, temiz kaynak dikişi, ölçü hassasiyeti ve uzun ömürlü dayanım yer alır. Her projede önce ihtiyacı netleştirir, uygun kaynak yöntemini belirler, ardından işi planlanan şekilde titizlikle tamamlarız. Küçük bir tamirat ya da özel imalat fark etmeksizin hedefimiz aynıdır: premium işçilik, güvenilir teslim.</p>
+
+          <p>Balıkesir’de yoğun hizmet vermekle birlikte, ihtiyaç halinde Bursa, İzmir, Manisa ve Çanakkale başta olmak üzere çevre illerde de proje bazlı destek sağlıyoruz. Keşiften teslime kadar süreci şeffaf yönetir, net iletişim ve düzenli bilgilendirme ile ilerleriz.</p>
+        </div>
+
+        <aside class="card about-aside">
+          <h3>Odak Noktalarımız</h3>
+          <ul>
+            <li>Doğru ısı kontrolü ve temiz kaynak dikişi</li>
+            <li>Ölçü hassasiyeti ve uzun ömürlü dayanım</li>
+            <li>Şeffaf süreç, net iletişim, düzenli bilgilendirme</li>
+            <li>Balıkesir + çevre illerde proje bazlı destek</li>
+          </ul>
+          <div class="chips" style="margin-top:10px;">
+            <span class="chip">15+ yıl tecrübe</span>
+            <span class="chip">TIG (argon)</span>
+            <span class="chip">Paslanmaz boru</span>
+            <span class="chip">Özel imalat</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="hizmetler">
+      <div class="section-head">
+        <h2>Hizmetler</h2>
+        <p>Her iş için doğru yöntem: estetik, dayanım ve güvenlik standartları.</p>
+      </div>
+
+      <div class="grid services">
+        <div class="card">
+          <div class="k"><i>TIG</i> Argon Kaynağı (TIG)</div>
+          <p>Paslanmaz uygulamalarda yüksek hassasiyet ve estetik görünüm isteyen işler için argon kaynağı (TIG) çözümleri sunuyoruz. Isı kontrolü ve kaynak dikiş kalitesi sayesinde, hem sağlamlığı hem de temiz yüzey görünümünü birlikte hedefleriz. Balıkesir genelinde argon kaynağı ihtiyaçlarınız için keşif ve uygulama desteği sağlıyoruz.</p>
+        </div>
+        <div class="card">
+          <div class="k"><i>BR</i> Paslanmaz Boru Kaynağı</div>
+          <p>Endüstriyel hatlar, tesisat uygulamaları ve özel üretim projelerinde paslanmaz boru kaynağı hizmeti veriyoruz. Ölçü doğruluğu, sızdırmazlık ve dayanım kriterlerini gözeterek, boru bağlantılarını işin ihtiyacına uygun şekilde tamamlarız. Balıkesir’de paslanmaz boru kaynağı işlerinizde yeni kurulumların yanında revizyon ve tadilat için de çözüm üretiyoruz.</p>
+        </div>
+        <div class="card">
+          <div class="k"><i>GZ</i> Gazlı Boru Kaynağı</div>
+          <p>Gazlı boru kaynağı uygulamalarında güvenlik ve işçilik standardı kritik önemdedir. Demirciler Paslanmaz olarak, doğru yöntem ve dikkatli uygulama yaklaşımıyla gazlı boru kaynağı işlerinizde destek veriyoruz. Proje kapsamına göre keşif yaparak en doğru uygulama planını netleştiriyoruz.</p>
+        </div>
+        <div class="card">
+          <div class="k"><i>İML</i> Özel İmalat &amp; Tamirat</div>
+          <p>İhtiyaca özel paslanmaz parça/ürün üretimi, yerinde uyarlama ve tamirat işleri yapıyoruz. Küçük müdahalelerden özel imalata uzanan süreçlerde, dayanımı ve görünümü birlikte hedefleyen bir işçilik anlayışıyla ilerliyoruz.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="ornekler">
+      <div class="section-head">
+        <h2>Örnek İşler</h2>
+        <p>Buraya gerçek fotoğraf ekleyince sayfa ciddi profesyonelleşir.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project">
+          <div class="project-media" aria-hidden="true"></div>
+          <div class="project-body">
+            <h3>Hat onarımı</h3>
+            <p>Kritik birleşim noktalarında paslanmaz revizyon ve güçlendirme.</p>
+            <div class="chips">
+              <span class="chip">Saha uygulaması</span>
+              <span class="chip">Dayanım odaklı</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-media" aria-hidden="true"></div>
+          <div class="project-body">
+            <h3>Küpeşte uygulaması</h3>
+            <p>Özel ölçü imalat + montaj. Temiz bitiş.</p>
+            <div class="chips">
+              <span class="chip">Ölçüye göre</span>
+              <span class="chip">Montaj dahil</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="surec">
+      <div class="section-head">
+        <h2>Süreç</h2>
+        <p>Gereksiz uzatmadan, 3 adımda.</p>
+      </div>
+
+      <div class="grid">
+        <div class="card" style="grid-column: span 12;">
+          <h3>1) Fotoğraf + ölçü</h3>
+          <p>İşin kapsamını hızlı netleştiririz.</p>
+        </div>
+        <div class="card" style="grid-column: span 12;">
+          <h3>2) Keşif / net teklif</h3>
+          <p>Gerekirse adrese gelir, kalemleri açık paylaşırız.</p>
+        </div>
+        <div class="card" style="grid-column: span 12;">
+          <h3>3) Uygulama / teslim</h3>
+          <p>Planlı uygulama, son kontrol, teslim.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sss">
+      <div class="section-head">
+        <h2>SSS</h2>
+        <p>Hızlı cevaplar. SEO için doğal, kısa ve net.</p>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Hangi bölgelerde hizmet veriyorsunuz?</h3>
+          <p>Balıkesir merkez ve tüm ilçelerinde hizmet veriyoruz. Proje bazlı olarak Bursa, İzmir, Manisa ve Çanakkale gibi çevre illerde de destek sağlayabiliyoruz.</p>
+        </div>
+        <div class="card">
+          <h3>Hangi hizmetleri sunuyorsunuz?</h3>
+          <p>Argon kaynağı (TIG), paslanmaz boru kaynağı ve gazlı boru kaynağı hizmetleri veriyoruz. Ayrıca özel imalat ve paslanmaz tamirat işleri yapıyoruz.</p>
+        </div>
+        <div class="card">
+          <h3>Fiyatlandırma nasıl belirleniyor?</h3>
+          <p>Fiyatlar; işin kapsamına, malzeme türüne, ölçülere ve yerinde uygulama gereksinimine göre değişir. Keşif sonrası net teklif paylaşılır.</p>
+        </div>
+        <div class="card">
+          <h3>Keşif yapıyor musunuz?</h3>
+          <p>Evet. Proje kapsamına göre keşif yaparak en doğru yöntemi ve uygulama planını belirliyoruz.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="bolgeler">
+      <div class="section-head">
+        <h2>Hizmet Bölgeleri</h2>
+        <p>Balıkesir odaklı seyyar servis. Proje bazlı çevre il desteği.</p>
+      </div>
+
+      <div class="card">
+        <p>Balıkesir merkez ve tüm ilçelerinde hizmet veriyoruz. Yoğunluk Balıkesir’de olmak üzere, proje bazlı olarak Bursa, İzmir, Manisa ve Çanakkale gibi çevre illere de destek sağlıyoruz.</p>
+        <div class="chips" style="margin-top:12px;">
+          <span class="chip">Balıkesir</span>
+          <span class="chip">Bursa</span>
+          <span class="chip">İzmir</span>
+          <span class="chip">Manisa</span>
+          <span class="chip">Çanakkale</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="iletisim">
+      <div class="section-head">
+        <h2>İletişim</h2>
+        <p>Telefon ve WhatsApp ile hızlı iletişim. Form WhatsApp mesajı hazırlar.</p>
+      </div>
+
+      <div class="contact">
+        <aside class="info reveal">
+          <h3 class="title">Hızlı Ulaşım</h3>
+
+          <div class="row">
+            <small>Telefon</small>
+            <a href="tel:+905392401111">0 539 240 11 11</a>
+          </div>
+
+          <div class="row">
+            <small>WhatsApp</small>
+            <a href="https://wa.me/905392401111" target="_blank" rel="noopener">Mesaj gönder</a>
+          </div>
+
+          <div class="row">
+            <small>Hizmet bölgesi</small>
+            <span>Balıkesir merkez + ilçeler</span>
+          </div>
+
+          <p class="fine">Not: Numaraları gerçek bilgilerle değiştirince sayfa hazır olur.</p>
+        </aside>
+
+        <form id="teklif" class="reveal">
+          <h3 class="title">Teklif Formu</h3>
+
+          <div class="two">
+            <input id="name" name="name" type="text" placeholder="Ad Soyad" required />
+            <input id="phone" name="phone" type="tel" placeholder="Telefon" required />
+          </div>
+
+          <div class="two">
+            <select id="service" name="service" required>
+              <option value="">Hizmet seçiniz</option>
+              <option>Argon (TIG) Kaynak</option>
+              <option>Paslanmaz Onarım</option>
+              <option>Özel İmalat</option>
+              <option>Yerinde Montaj</option>
+              <option>Küpeşte / Korkuluk</option>
+            </select>
+            <input id="district" name="district" type="text" placeholder="İlçe / Konum" />
+          </div>
+
+          <textarea id="detail" name="detail" placeholder="Kısa açıklama (ölçü, aciliyet, fotoğraf var mı?)"></textarea>
+
+          <button type="submit">WhatsApp ile Gönder</button>
+          <div class="fine">Butona basınca WhatsApp mesajı otomatik hazırlanır.</div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container" style="display:grid;gap:10px;">
+        <div class="fine">Demirciler Paslanmaz; Balıkesir’de argon kaynağı (TIG), paslanmaz boru kaynağı ve gazlı boru kaynağı alanlarında 15 yıllık tecrübesiyle premium işçilik sunar. Özel imalat ve tamirat işleriniz için keşif sonrası doğru planlama ile güvenilir çözümler üretir.</div>
+        <div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center;">
+          <div>&copy; <span id="year"></span> Demirciler Paslanmaz</div>
+          <div>Balıkesir paslanmaz kaynak | Argon kaynağı (TIG)</div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <a class="floating" href="https://wa.me/905392401111?text=Merhaba%2C%20paslanmaz%20argon%20(TIG)%20kaynak%20i%C3%A7in%20teklif%20almak%20istiyorum." target="_blank" rel="noopener">WhatsApp ile Teklif</a>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const menuBtn = document.getElementById("menuBtn");
+    const navLinks = document.getElementById("navLinks");
+
+    menuBtn.addEventListener("click", () => {
+      navLinks.classList.toggle("open");
+    });
+
+    navLinks.querySelectorAll("a").forEach((a) => {
+      a.addEventListener("click", () => navLinks.classList.remove("open"));
+    });
+
+    const reveals = document.querySelectorAll(".reveal");
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("in");
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.14 }
+    );
+
+    reveals.forEach((el, i) => {
+      el.style.transitionDelay = `${Math.min(i * 60, 240)}ms`;
+      io.observe(el);
+    });
+
+    const form = document.getElementById("teklif");
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const name = document.getElementById("name").value.trim();
+      const phone = document.getElementById("phone").value.trim();
+      const service = document.getElementById("service").value.trim();
+      const district = document.getElementById("district").value.trim();
+      const detail = document.getElementById("detail").value.trim();
+
+      const text = [
+        "Merhaba, teklif almak istiyorum.",
+        `Ad Soyad: ${name}`,
+        `Telefon: ${phone}`,
+        `Hizmet: ${service || "Belirtilmedi"}`,
+        `İlçe/Konum: ${district || "Belirtilmedi"}`,
+        `Detay: ${detail || "Belirtilmedi"}`
+      ].join("\n");
+
+      const url = `https://wa.me/905392401111?text=${encodeURIComponent(text)}`;
+      window.open(url, "_blank", "noopener");
+    });
+  </script>
+</body>
+</html>
