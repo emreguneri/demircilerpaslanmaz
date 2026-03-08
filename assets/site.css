@@ -122,7 +122,11 @@
       display: block;
       object-fit: contain;
       flex: 0 0 auto;
+      border-radius: 14px;
     }
+
+    /* If the uploaded logo already contains the wordmark, hide duplicate text. */
+    .brand.has-wordmark .brand-text { display: none; }
 
     .mark {
       width: 56px;
