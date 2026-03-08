@@ -124,15 +124,19 @@
       font-weight: 900;
       letter-spacing: 0.2px;
       color: #1b120a;
-      background: linear-gradient(135deg, rgba(255,106,26,1), rgba(255,195,150,1));
-      box-shadow: 0 18px 40px rgba(255, 106, 26, 0.24);
+      background:
+        radial-gradient(90px 70px at 30% 25%, rgba(255, 106, 26, 0.18), transparent 55%),
+        linear-gradient(180deg, #0b0f17, #121a2a);
+      border: 1px solid rgba(255, 106, 26, 0.22);
+      box-shadow: 0 16px 32px rgba(18, 24, 38, 0.18);
       flex: 0 0 auto;
     }
 
     /* When mark is an <img>, keep the same sizing and crop safely. */
     img.mark {
       display: block;
-      object-fit: cover;
+      object-fit: contain;
+      padding: 8px;
     }
 
     .brand-text {
