@@ -129,6 +129,12 @@
       flex: 0 0 auto;
     }
 
+    /* When mark is an <img>, keep the same sizing and crop safely. */
+    img.mark {
+      display: block;
+      object-fit: cover;
+    }
+
     .brand-text {
       display: grid;
       line-height: 1.1;
